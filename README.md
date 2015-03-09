@@ -2,6 +2,8 @@
 
 # Go Hello API
 
+[![Build Status](https://travis-ci.org/sphereio/sphere-hello-api-golang.svg?branch=master)](https://travis-ci.org/sphereio/sphere-hello-api-golang)
+
 An example using the Go language to authenticate your application to [SPHERE.IO](http://sphere.io) and get the products in your project.
 
 ## Setup
