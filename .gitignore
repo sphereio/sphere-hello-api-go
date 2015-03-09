@@ -1,4 +1,6 @@
 *
 !.gitignore
+!.travis.yml
+!create_config.sh
 !hello.go
 !*.md
