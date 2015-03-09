@@ -6,7 +6,7 @@ install:
 before_script:
   - ./create_config.sh
 script:
-  - go build hello.go && ./hello | grep "Found $expected_product_count products"
+  - go build hello.go && ./hello | grep "Found 5 products"
 env:
   global:
     - secure: E+DFfDvdES4UCZm2KXlFxidq8QqYxwfgn6E1EO1HRILILpTs05eGMliUgSLSAOTe8rHPD6/eUYTwEKiBupHPPB5byzcmY6zRhd1+N42SbH/yOiJx5aWQlPNc4mCD2Qi772alvSdCvgmm6678MBfL2PEQ+61fML6e2Z7n6sezUxs=
